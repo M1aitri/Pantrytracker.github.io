@@ -1,0 +1,26 @@
+/* Reset box-sizing for all elements */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Global Styles */
+body {
+  background-color: #000000; /* Dark background for the whole page */
+  color: #FFFFFF; /* White text color for better contrast */
+  font-family: Arial, sans-serif; /* Default font family */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Animations for typewriter effect */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #FF66B2; }
+}
+
